@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@100;200;300;400;500;600;700&display=swap);
+
+body{
+    font-family: 'Roboto', 'lato', sans-serif;
+}
+
+header{
+    background-color: #fbf0f4;
+    padding: 10px 0 38px 0;
+}
