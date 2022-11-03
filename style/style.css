@@ -415,3 +415,259 @@ hr{
     cursor: pointer;
 }
 
+.section-four{
+    background-color: #f8edf0;
+}
+
+.section-four .d-flex{
+    width: 100%;
+    display: flex;
+}
+
+.section-four .left-side{
+    width: 35%;;
+}
+
+.section-four .left-side img{
+    position: relative;
+    top: 42px;
+    border-radius: 30px;
+    
+}
+
+.section-four .right-side{
+    width: 60%;
+    position: relative;
+    bottom: 60px;
+}
+
+.section-four .right-side .title{
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.section-four .right-side .commit{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-right: 55px;
+}
+
+.order{
+    margin-bottom: 40px;
+}
+
+.order .main{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.order .main div:nth-child(1){
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.order .main div:nth-child(2){
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.order .main img{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    width: 55%;
+    align-items: center;
+}
+
+.playMarket{
+    width: 260px;
+    height: 77px;
+}
+
+.section-five{
+    padding: 190px 0 130px 0;
+}
+
+.section-five .title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+
+.section-five .d-flex{
+    display: flex;
+    width: 55%;
+    margin: 28px auto 0 auto;
+}
+
+.section-five input{
+    height: 64px;
+    width: 503px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: none;
+    padding-left: 30px;
+    outline: none;
+    transition: all .4s ease;
+}
+
+.section-five input:focus{
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.103);
+}
+
+.section-five input::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+}
+
+.send-btn{
+    width: 134px;
+    height: 64px;
+    background: #D64374;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+footer{
+    padding: 70px 0 104px 0;
+    background-color: #0A0808;
+    color: white;
+}
+
+footer .container .d-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer .first-col{
+    width: 207px;
+}
+
+.first-col .text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    opacity: 0.7;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+
+.first-col .follow{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;
+    margin-bottom: 8px;
+}
+
+.first-col .social img{
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.second-col{
+    padding-top: 73px;
+    margin-left: 37px;
+}
+
+.second-col a,
+.third-col a{
+    font-size: 15px;
+    line-height: 14px;
+    color: #fff;
+    opacity: .7;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    transition: .5s ease;
+}
+
+.second-col a:hover,
+.third-col a:hover{
+    opacity: 1;
+}
+
+.third-col{
+    padding-top: 80px;
+    margin-left: 132px;
+}
+
+.four-col{
+    padding-top: 86px;
+    position: relative;
+    left: 86px; 
+}
+
+.four-col .title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.four-col .search-btn{
+    margin-top: 13px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.four-col input{
+    width: 388px;
+    height: 55px;
+    opacity: 0.5;
+    border: 2px solid #D64374;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding-left: 32px;
+    box-sizing: border-box;
+}
+
+.four-col .search-btn button{
+    background-color: #D23166;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 125px;
+    height: 55px;
+    border: none;
+    color: white;
+    position: relative;
+    right: 100px;
+}
